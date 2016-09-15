@@ -56,7 +56,28 @@
                 1 => ' Thousand',
                 2 => ' Million',
                 3 => ' Billion',
-                4 => ' Trillion'
+                4 => ' Trillion',
+                5 => ' Quadrillion',
+                6 => ' Quintillion',
+                7 => ' Sextillion',
+                8 => ' Septillion',
+                9 => ' Octillion',
+                10 => ' Nonillion',
+                11 => ' Decillion',
+                12 => ' Undecillion',
+                13 => ' Duodecillion',
+                14 => ' Tredecillion',
+                15 => ' Quattuordecillion',
+                16 => ' Quindecillion',
+                17 => ' Tredecillion',
+                18 => ' Octodecillion',
+                19 => ' Novemdecillion',
+                20 => ' Vigintillion',
+                21 => ' Unvigintillion',
+                22 => ' Duovigintillion',
+                23 => ' Trevigintillion',
+                24 => ' Quattuorvigintillion',
+                25 => ' Quinvigintillion'
             );
         }
 

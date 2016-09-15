@@ -124,6 +124,27 @@
             $this->assertEquals('Nine Billion', $result);
         }
 
+        function test_convertWholeString_FifteenZeroes()
+        {
+            //Arrange
+            $test_NumberToWord = new NumberToWords;
+            $input = 9000000000000000;
+            //Act
+            $result = $test_NumberToWord->convertWholeString($input);
+            //Assert
+            $this->assertEquals('Nine Quadrillion', $result);
+        }
+
+        function test_convertWholeString_EighteenZeroes()
+        {
+            //Arrange
+            $test_NumberToWord = new NumberToWords;
+            $input = 9000000000000000000;
+            //Act
+            $result = $test_NumberToWord->convertWholeString($input);
+            //Assert
+            $this->assertEquals('Nine Quintillion', $result);
+        }
 
 
 
